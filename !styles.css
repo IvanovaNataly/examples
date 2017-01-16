@@ -1,0 +1,27 @@
+table {
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+	border: 1px solid;
+}
+
+.c_colspan {
+	color: red;
+	font-weight: bold;
+}
+
+.c_rowspan {
+	color: blue;
+	font-weight: bold;
+}
+
+input,
+textarea, 
+selectco {
+	margin-bottom: 2rem;
+}
+

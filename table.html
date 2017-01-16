@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<title>Nataly's page</title>
+        <link rel="stylesheet" href="styles.css" rel="text/css">
+    </head>
+
+    <body>         
+    
+    <table>
+        <thead>
+            <tr>
+                <th>Name</td>
+                <th>Age</td>
+                <th>Meal</td>
+                <th>Drink</td>  
+                <th>Age</td>
+                <th>Meal</td>
+                <th>Drink</td>
+            </tr>
+        </thead> 
+        <tbody>
+            <tr>
+                <th scope="row">Winnie-the-Pooh</td>
+                <td>2</td>
+                <td>Honney</td>
+                <td>2</td>
+                <td>Honney</td> 
+                <td>2</td>
+                <td>Honney</td>
+            </tr>
+            <tr>
+                <th scope="row">Piglet</td>
+                <td>2</td>
+                <td>Acorns</td>
+                <td>Water</td>
+                <td>2</td>
+                <td>Acorns</td>
+                <td>Water</td>
+            </tr>
+            <tr>
+                <th scope="row">Christopher Robin</td>
+                <td>6</td>
+                <td>Apples</td>
+                <td>Juice</td>
+                <td>6</td>
+                <td colspan="2" class="c_colspan">Apples</td>
+                <!-- <td>Juice</td> -->
+            </tr>
+
+            <tr>
+                <th scope="row">Rabbit</td>
+                <td>5</td>
+                <td>Carrots</td>
+                <td>Tea</td>
+                <td>5</td>
+                <td colspan="2" class="c_colspan">Carrots</td> -->
+                <!-- <td>Tea</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Sum</td>
+                <td colspan="3">100</td>
+                <td colspan="3">200</td>
+            </tr>
+        </tfoot>
+    </table>
+        
+    <table>
+        <thead>
+            <tr>
+                <th>Name</td>
+                <th>Age</td>
+                <th>Meal</td>
+                <th>Drink</td>  
+                <th>Age</td>
+                <th>Meal</td>
+                <th>Drink</td>
+            </tr>
+        </thead> 
+        <tbody>
+            <tr>
+                <th scope="row" rowspan="2" class="c_rowspan">Winnie-the-Pooh</td>
+                <td>2</td>
+                <td>Honney</td>
+                <td>2</td>
+                <td>Honney</td> 
+                <td colspan="2" rowspan="2" class="c_colspan">2</td>
+                <!-- <td>Honney</td> -->
+            </tr>
+            <tr>
+                <!-- <th scope="row">Piglet</td> -->
+                <td>2</td>
+                <td>Acorns</td>
+                <td>Water</td>
+                <td>2</td> -->
+                <!-- <td colspan="2" class="c_colspan">Acorns</td> -->
+                <!-- <td>Water</td> -->
+           </tr>
+            <tr>
+                <th scope="row" rowspan="2" class="c_rowspan">Christopher Robin</td>
+                <td>6</td>
+                <td>Apples</td>
+                <td>Juice</td>
+                <td>6</td>
+                <td>Apples</td>
+                <td>Juice</td>
+            </tr>
+
+            <tr>
+                <!-- <th scope="row">Rabbit</td> -->
+                <td>5</td>
+                <td>Carrots</td>
+                <td>Tea</td>
+                <td>5</td>
+                <td>Carrots</td>
+                <td>Tea</td>
+            </tr>
+        </tbody>
+    </table>
+    </body>
+</html>
